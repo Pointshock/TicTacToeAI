@@ -91,7 +91,7 @@ def player_choice(board, name, choice):
     return position
 
 
-# THIS IS THEFUNCTION WHERE AI IS ADDED:
+# THIS IS THE FUNCTION WHERE AI IS ADDED:
 def CompAI(board, name, choice):
     position = 0
     possibilities = [x for x, letter in enumerate(board) if letter == ' ' and x != 0]
@@ -182,7 +182,7 @@ def replay():
 
 #MAIN PROGRAM STARTS;
 
-print("\n\t\t NAMASTE! \n")
+print("\n\t\t Hello! \n")
 input("Press ENTER to start!")
 
 default()
